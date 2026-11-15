@@ -1,0 +1,49 @@
+blocks:
+- uuid: load_iris
+  type: data_loader
+  name: load_iris
+  downstream_blocks:
+  - validate_iris
+- uuid: validate_iris
+  type: transformer
+  name: validate_iris
+  upstream_blocks:
+  - load_iris
+  downstream_blocks:
+  - prepare_data
+- uuid: prepare_data
+  type: transformer
+  name: prepare_data
+  upstream_blocks:
+  - validate_iris
+  downstream_blocks:
+  - train_model
+- uuid: train_model
+  type: transformer
+  name: train_model
+  upstream_blocks:
+  - prepare_data
+  downstream_blocks:
+  - save_results
+  - evaluate_model
+  configuration:
+    max_depth: 3
+- uuid: save_results
+  type: data_exporter
+  name: save_results
+  upstream_blocks:
+  - train_model
+- uuid: evaluate_model
+  type: data_exporter
+  name: evaluate_model
+  upstream_blocks:
+  - train_model
+callbacks: []
+conditionals: []
+data_integration: null
+description: Iris decision tree with tested preparation and parallel evaluation.
+name: iris_classifier
+type: python
+executor_type: local_python
+settings: {}
+uuid: iris_classifier

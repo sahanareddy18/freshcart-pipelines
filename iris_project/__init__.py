@@ -1,0 +1,1 @@
+"""Mage-compatible Iris pipeline project."""
