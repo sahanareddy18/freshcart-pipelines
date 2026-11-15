@@ -13,7 +13,11 @@
 Repository layout is provided in the project root. Paste `git log --oneline` here after making at least five meaningful commits:
 
 ```text
-[paste output]
+176329e Document submission evidence and run steps
+2e754cf Add RabbitMQ routing and lakehouse bridge
+e09099a Add FreshCart Snowflake ELT pipeline
+e782ec1 Build tested Mage Iris pipeline
+e7c12b3 Set up project foundation and CI test
 ```
 
 Paste the GitHub Actions links or screenshots for one passing run and one intentionally failing run (made by temporarily changing the split size, then fixing it):
