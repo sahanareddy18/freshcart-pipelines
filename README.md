@@ -1,5 +1,18 @@
 # FreshCart Pipelines
 
+## Submission
+
+- **Repository:** https://github.com/sahanareddy18/freshcart-pipelines
+- **Report:** `report/23BCS124_Kanukuntla_Sahana_Pipelines.pdf`
+- **FreshCart ELT notebook:** `elt/freshcart_elt.ipynb`
+- **Mage Iris project and notebook:** `iris_project/` and `iris_project/iris_pipeline.ipynb`
+- **RabbitMQ stream scripts:** `stream/dispatcher.py` and `stream/driver.py`
+- **Captured evidence:** `screenshots/`
+
+The RabbitMQ-to-Snowflake bonus implementation is included in
+`stream/consumer_to_landing.py` and `stream/publish_freshcart_orders.py`. It
+requires valid RabbitMQ and Snowflake environment variables for a live run.
+
 Coursework workspace for the "From Git to Gold" assignment. It contains a
 Snowflake-ready FreshCart ELT flow, an import-safe Mage Iris pipeline, and
 RabbitMQ topic-routing scripts.
