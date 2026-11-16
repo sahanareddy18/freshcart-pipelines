@@ -27,7 +27,10 @@ environment variables and never commit them.
 - `iris_project/`: Mage-compatible Iris blocks and pipeline metadata.
 - `stream/`: dispatcher, topic-bound drivers, and the optional ELT consumer.
 - `tests/`: local tests used by GitHub Actions.
-- `report/`: report draft and evidence checklist.
+
+The named submission report (`RollNo_Name_Pipelines.pdf`) is delivered separately
+from this code repository. Keep account screenshots and credentials private unless
+your instructor specifically requests them in the shared repository.
 
 The class-provided FreshCart and Mage notebooks were not present in the
 workspace. The SQL and sample data here therefore make their assumptions
