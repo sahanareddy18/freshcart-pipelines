@@ -52,7 +52,6 @@ USING (
     ('CUST-01', 'priya@example.com', 'Silver', '2026-01-01'),
     ('CUST-01', 'priya@example.com', 'Gold',   '2026-08-15'),
     ('CUST-02', 'arjun.k@yahoo.in', 'Silver', '2026-01-01'),
-    ('CUST-02', 'arjun.k@yahoo.in', 'Gold',   '2026-08-25'),
     ('CUST-03', 'mira@example.com', 'Gold',   '2026-01-01')
 ) source
 ON target.customer_id = source.customer_id

@@ -15,6 +15,5 @@ MOCK_CRM_TIER_EVENTS = [
     {"customer_id": "CUST-01", "customer_email": "priya@example.com", "tier": "Silver", "effective_from": "2026-01-01"},
     {"customer_id": "CUST-01", "customer_email": "priya@example.com", "tier": "Gold", "effective_from": "2026-08-15"},
     {"customer_id": "CUST-02", "customer_email": "arjun.k@yahoo.in", "tier": "Silver", "effective_from": "2026-01-01"},
-    {"customer_id": "CUST-02", "customer_email": "arjun.k@yahoo.in", "tier": "Gold", "effective_from": "2026-08-25"},
     {"customer_id": "CUST-03", "customer_email": "mira@example.com", "tier": "Gold", "effective_from": "2026-01-01"},
 ]
